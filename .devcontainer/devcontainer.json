@@ -1,4 +1,5 @@
 {
   "image": "cirrusci/flutter:latest",
+  "postStartCommand": "apt update && apt install cmake",
   "forwardPorts": [3000]
 }
